@@ -1,0 +1,438 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi there",
+        "Hii",
+        "Hi",
+        "How are you",
+        "Is anyone there?",
+        "Hey",
+        "Hola",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hii",
+        "Hello",
+        "Thanks for asking",
+        "Good to see you again",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Nice chatting to you, bye",
+        "Till next time"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": [
+        "Sorry, can't understand you",
+        "Please give me more info",
+        "Not sure I understand"
+      ]
+    },
+    {
+      "tag": "initial",
+      "patterns": [
+        "I am not feeling well",
+        "I am not okay.",
+        "I am feeling week"
+      ],
+      "responses": [
+        "Ohho Don't worry. I'll help you.",
+        "Be relax. Tell me Symptoms you are suffering from.",
+        "Here I am to assist you."
+      ]
+    },
+    {
+      "tag": "fever",
+      "patterns": [
+        "fever",
+        "I have a fever",
+        "I am having temperature more than 38 degree",
+        "feeling like shivering",
+        "having muscles and joint aches",
+        "headache",
+        "feeling faint",
+        "having eye pain",
+        "having weakness"
+      ],
+      "responses": [
+        "It seems like you are having FEVER. You may consider taking some medications such as Paracetamol, Acetaminophen, Aspirin, Advil Capsule, Voltaren, Dolo, Prednisone, or Methylprednisolone. It's also recommended to watch this informative video: [Video Link]. Additionally, it would be advisable to consult a doctor for further evaluation and treatment."
+      ]
+    },
+    {
+      "tag": "ringworm",
+      "patterns": [
+        "scaly ring-shaped area",
+        "on the buttocks",
+        "on the trunk",
+        "on arms",
+        "on legs",
+        "clear or scaly area inside the ring",
+        "with red bumps",
+        "round patch of itchy skin"
+      ],
+      "responses": [
+        "It seems like you have ringworm. Treatment options include medications such as Griseofulvin (Grifulvin V, Gris-PEG), Terbinafine, and Itraconazole. You may also consider using Terbinafine tablets. It's advisable to consult a doctor for proper diagnosis and treatment. Here's a list of doctors you can reach out to for further assistance."
+      ]
+    },
+    {
+      "tag": "options",
+      "patterns": [
+        "How you could help me?",
+        "What you can do?",
+        "What help you provide?",
+        "How you can be helpful?",
+        "What support is offered"
+      ],
+      "responses": [
+        "I can guide you through Advise drug list, Hospitals and Pharmacies",
+        "Offering support for Advise drug , Hospitals and Pharmacies"
+      ]
+    },
+    {
+      "tag": "Blackheads",
+      "patterns": [
+        "dark color on my skin",
+        "raised blackheads on my skin",
+        "blackheads on my skin",
+        "not painful like pimples",
+        "pimples form due to bacteria invasion",
+        "redness and inflammation"
+      ],
+      "responses": [
+        "It seems like you have blackheads. Treatment options may include medications containing ingredients such as salicylic acid, benzoyl peroxide, and resorcinol. Exfoliating scrubs and masks can help remove dead skin cells and reduce blackheads. It's advisable to consult a doctor for personalized treatment. Here's a list of doctors you can consider reaching out to for further assistance."
+      ]
+    },
+    {
+      "tag": "psoriasis",
+      "patterns": [
+        "Red patches of skin covered with thick, silvery scales",
+        "Small scaling spots, commonly seen in children",
+        "Dry and cracked skin that may bleed or itch",
+        "Itching, burning, or soreness",
+        "Thickened, pitted, or ridged nails",
+        "Swollen and stiff joints"
+      ],
+      "responses": [
+        "It seems like you have psoriasis. Treatment options may include medications such as corticosteroids, vitamin D analogues, retinoids, calcineurin inhibitors, salicylic acid, coal tar, or Goeckerman therapy. Additionally, using aloe extract cream or essential oils may provide relief. It's advisable to consult a doctor for personalized treatment. Here's a list of doctors you can consider reaching out to for further assistance."
+      ]
+    },
+    {
+      "tag": "dry, cracked skin",
+      "patterns": [
+        "feeling of skin tightness",
+        "especially after showering, bathing, or swimming",
+        "skin that feels and looks rough",
+        "slight to severe flaking, scaling, or peeling",
+        "gray or ashy skin",
+        "redness",
+        "deep cracks that may bleed"
+      ],
+      "responses": [
+        "It seems like you have dry and cracked skin. Treatment options may include moisturizing creams such as CeraVe Moisturizing Cream, Vanicream Moisturizing Skin Cream, La Roche-Posay Lipikar Balm AP+ Moisturizer, or Himalaya Nourishing Skin Cream. It's advisable to consult a doctor for personalized treatment. Here's information about a dermatologist you can consider reaching out to: Doctor name: Ravi Desai, Contact: 7558318551."
+      ]
+    },
+    {
+      "tag": "ulcers",
+      "patterns": [
+        "gnawing or burning pain in middle or upper stomach between meals or at night",
+        "heartburn",
+        "nausea or vomiting",
+        "bloating"
+      ],
+      "responses": [
+        "It seems like you have ulcers. Treatment options may include medications such as omeprazole (Prilosec), lansoprazole (Prevacid), rabeprazole (Aciphex), esomeprazole (Nexium), and pantoprazole (Protonix). It's advisable to consult a doctor for personalized treatment. Here's a list of doctors you can consider reaching out to for further assistance."
+      ]
+    },
+    {
+      "tag": "rosacea",
+      "patterns": [
+        "facial redness",
+        "swollen red bumps",
+        "swollen eyes",
+        "red swollen eyelids",
+        "enlarged nose"
+      ],
+      "responses": [
+        "It seems like you have rosacea. Treatment options may include medications such as azelaic acid (Azelex, Finacea), metronidazole (Metrogel, Noritate, others), and ivermectin (Soolantra). With azelaic acid and metronidazole, it's advisable to consult a doctor for personalized treatment. Here's a list of doctors you can consider reaching out to for further assistance."
+      ]
+    },
+    {
+      "tag": "open sores or lesions",
+      "patterns": [
+        "difficulty breathing",
+        "fever and chills",
+        "headache",
+        "itchy feeling",
+        "joint pain or stiffness",
+        "nausea with or without vomiting",
+        "redness, warmth, or swelling",
+        "sores containing pus",
+        "sweating"
+      ],
+      "responses": [
+        "It seems like you have open sores or lesions. Treatment options may include laser surgery, oatmeal baths or lotions, absorbent powders, or protective balms. It's advisable to consult a doctor for personalized treatment. Here's a list of doctors you can consider reaching out to for further assistance."
+      ]
+    },
+    {
+      "tag": "CHICKEN POX",
+      "patterns": [
+        "fever",
+        "loss of appetite",
+        "headache",
+        "tiredness",
+        "general feeling of being unwell",
+        "malaise"
+      ],
+      "responses": [
+        "It seems like you have chickenpox. Treatment options may include medications such as acyclovir (Zovirax, Sitavig) and immune globulin intravenous (Privigen). It's advisable to consult a doctor for personalized treatment. Here's a list of doctors you can consider reaching out to for further assistance."
+      ]
+    },
+    {
+      "tag": "Acne",
+      "patterns": [
+        "crusting of skin bumps",
+        "papules (small red bumps)",
+        "pustules (small red bumps containing white or yellow pus)",
+        "redness around the skin eruptions",
+        "scarring of the skin",
+        "whiteheads",
+        "blackheads"
+      ],
+      "responses": [
+        "It seems like you have acne. Treatment options may include medications such as retinoids, antibiotics, azelaic acid, salicylic acid, and dapsone. It's advisable to consult a doctor for personalized treatment. Here's a list of doctors you can consider reaching out to for further assistance."
+      ]
+    },
+    {
+      "tag": "Eczema",
+      "patterns": [
+        "skin itching",
+        "skin turning red",
+        "skin burning",
+        "skin stinging",
+        "itchy bumps called hives popping up on the skin",
+        "skin thickening and feeling scaly or leathery",
+        "fluid-filled blisters forming, oozing, and crusting over"
+      ],
+      "responses": [
+        "It seems like you have eczema. Treatment options may include medications such as topical corticosteroid creams and ointments, systemic corticosteroids, antibiotics, antiviral and antifungal medications, and antihistamines. Home care measures such as taking lukewarm baths, moisturizing daily, and wearing cotton and soft fabrics may also help. It's advisable to consult a doctor for personalized treatment. Here's a list of doctors you can consider reaching out to for further assistance."
+      ]
+    },
+    {
+      "tag": "hives",
+      "patterns": [
+        "outbreak of swollen",
+        "pale red bumps or plaques (wheals)"
+      ],
+      "responses": [
+        "It seems like you have hives. Treatment options may include avoiding triggers, using over-the-counter anti-itch drugs, applying cold washcloths, taking comfortably cool baths, wearing loose, smooth-textured cotton clothing, and avoiding the sun. It's advisable to consult a doctor for personalized treatment. Here's a list of doctors you can consider reaching out to for further assistance."
+      ]
+    },
+    {
+      "tag": "dark circles",
+      "patterns": [
+        "dark coloration of the skin under the eyes"
+      ],
+      "responses": [
+        "It seems like you have dark circles. Treatment options may include using topical creams or serums containing ingredients like vitamin C, retinoids, or hyaluronic acid. Additionally, practicing good sleep hygiene, managing allergies, staying hydrated, and applying cold compresses can help reduce dark circles. It's advisable to consult a doctor or dermatologist for personalized treatment. Here's a list of doctors you can consider reaching out to for further assistance."
+      ]
+    },
+    {
+      "tag": "Sinus Infection",
+      "patterns": [
+        "pain in the face",
+        "itching in the face",
+        "pain in the forehead",
+        "pain in the sinuses",
+        "loss of smell",
+        "nasal congestion",
+        "pain in the back of the eyes",
+        "ear pain",
+        "runny nose",
+        "sneezing",
+        "distorted sense of smell"
+      ],
+      "responses": [
+        "It seems like you have a sinus infection. Treatment options may include medications such as Flonase, Dymista (fluticasone propionate), Nasonex (mometasone furoate), hydrocortisone, and Nasacort AQ (triamcinolone). Home treatments such as using nasal sprays, staying hydrated, breathing in steam, and raising the head during sleep can also help. It's advisable to consult a doctor for personalized treatment. Here's a list of doctors you can consider reaching out to for further assistance."
+      ]
+    },
+    {
+      "tag": "Allergic Rhinitis",
+      "patterns": [
+        "pain in the ear",
+        "nasal congestion",
+        "redness",
+        "runny nose",
+        "post-nasal drip",
+        "sneezing",
+        "stuffy nose",
+        "eyes itchiness",
+        "puffy eyes",
+        "watery eyes"
+      ],
+      "responses": [
+        "It seems like you have allergic rhinitis. Treatment options may include medications such as intranasal corticosteroids, which are the single most effective drug class for treating allergic rhinitis. They can significantly reduce nasal congestion, sneezing, itching, and a runny nose. It's advisable to consult a doctor for personalized treatment. Here's a list of doctors you can consider reaching out to for further assistance."
+      ]
+    },
+    {
+      "tag": "Food Allergy",
+      "patterns": [
+        "pain in the abdomen",
+        "diarrhoea",
+        "indigestion",
+        "nausea",
+        "passing excessive amounts of gas",
+        "vomiting",
+        "flatulence"
+      ],
+      "responses": [
+        "It seems like you have a food allergy. Treatment options may include over-the-counter or prescribed antihistamines such as diphenhydramine (Benadryl) to help reduce symptoms. Additionally, consider cleaning out your nose, trying an over-the-counter allergy medicine, or using prescription nasal sprays or eye drops. Decongestants may also help relieve nasal congestion. It's important to avoid triggers and consult a doctor for personalized treatment. Here's a list of doctors you can consider reaching out to for further assistance."
+      ]
+    },
+    {
+      "tag": "Anaphylaxis",
+      "patterns": [
+        "whole body fainting",
+        "light-headedness",
+        "low blood pressure",
+        "dizziness",
+        "flushing",
+        "difficulty breathing",
+        "rapid breathing",
+        "shortness of breath",
+        "wheezing"
+      ],
+      "responses": [
+        "It seems like you are experiencing anaphylaxis. Anaphylaxis is a severe allergic reaction that requires immediate medical attention. Treatment options may include the administration of epinephrine (adrenaline) to counteract the allergic response, intravenous (IV) antihistamines and corticosteroids to reduce inflammation, and oxygen therapy. It's crucial to seek emergency medical assistance as anaphylaxis can be life-threatening. Here's a list of doctors you can consider reaching out to for further assistance."
+      ]
+    },
+    {
+      "tag": "Contact Dermatitis",
+      "patterns": [
+        "pain in the skin",
+        "rashes",
+        "redness",
+        "blister",
+        "fissures",
+        "hives",
+        "peeling",
+        "itching",
+        "swelling"
+      ],
+      "responses": [
+        "It seems like you have contact dermatitis. Treatment options may include using steroid creams or ointments, oral medications, and avoiding the irritant or allergen. You can also apply an anti-itch cream or lotion to the affected area and soak in a comfortably cool bath for relief. It's advisable to consult a doctor for personalized treatment. Here's a list of doctors you can consider reaching out to for further assistance."
+      ]
+    },
+    {
+      "tag": "Cough",
+      "patterns": [
+        "runny nose",
+        "sore throat",
+        "hoarseness",
+        "shortness of breath",
+        "sour taste in mouth",
+        "difficulty swallowing",
+        "coughing when swallowing",
+        "chest congestion",
+        "wheezing",
+        "fever",
+        "fatigue",
+        "chest pain",
+        "persistent cough",
+        "dry cough",
+        "productive cough",
+        "cough with mucus",
+        "nighttime cough",
+        "cough worsens at night",
+        "coughing fits",
+        "cough lasting more than 2 weeks"
+      ],
+      "responses": [
+        "It seems like you have a cough. Cough can be caused by various factors including respiratory infections, allergies, or other underlying conditions. Treatment options may include over-the-counter medications such as Tussionex Pennkinetic, Tessalon Perles, Torrex, Hydromet, Acetaminophen / Hydrocodone, Benylin Chesty Coughs, Robitussin Chesty Cough, Benylin Dry Coughs syrup, and Mucinex DM. It's important to consult a doctor for proper diagnosis and treatment. Here's a list of doctors you can consider reaching out to for further assistance."
+      ]
+    },
+    {
+      "tag": "Eye Allergies",
+      "patterns": [
+        "I am having Red eyes",
+        "I have irritated eyes and itchiness",
+        "My eyes are tearing",
+        "My eyes are runny",
+        "My eyelids are swollen",
+        "I feel soreness in my eyes",
+        "I have burning or pain in my eyes",
+        "I am sensitive to light",
+        "I'm having pain in my eyes",
+        "My eyes are red",
+        "I'm sensitive to light",
+        "My eyes are burning",
+        "My eyes are tearing and I feel soreness"
+      ],
+      "responses": [
+        "It seems like you are experiencing symptoms of Eye Allergies. You may consider the following treatments: Artificial tear drops, Decongestants (with or without antihistamines), Oral antihistamines, etc. It's advisable to consult with a doctor for proper diagnosis and treatment. You can find a suitable doctor from our list of specialists."
+      ]
+    },
+    {
+      "tag": "COLD",
+      "patterns": [
+        "I have a runny nose",
+        "I have a sore throat",
+        "I have a cough",
+        "I'm congested",
+        "I'm experiencing body aches",
+        "I have a headache",
+        "I'm sneezing",
+        "I've lost my sense of smell",
+        "I've lost my sense of taste",
+        "I'm having difficulty breathing",
+        "I'm experiencing difficulty in breathing",
+        "I have body aches and I've lost my sense of taste",
+        "I'm congested",
+        "I've lost my sense of smell",
+        "I'm sneezing",
+        "I have a sore throat",
+        "I have a headache",
+        "I'm congested",
+        "I have a runny nose",
+        "I'm experiencing difficulty in breathing",
+        "I've lost my sense of smell",
+        "I have body aches",
+        "I've lost my sense of taste"
+      ],
+      "responses": [
+        "It seems like you are experiencing symptoms of a cold. You may consider the following treatments: Nasal decongestants, Crocin, Mucinex, Tussionex, Claritin-D 24 Hour, Benadryl Allergy Plus Congestion. It's advisable to consult with a doctor for proper diagnosis and treatment. You can find a suitable doctor from our list of specialists."
+      ]
+    }
+  ]
+}
